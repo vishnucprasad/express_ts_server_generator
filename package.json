@@ -1,0 +1,20 @@
+{
+  "name": "express-ts-server-generator",
+  "version": "1.0.1",
+  "description": "",
+  "bin": {
+    "express-ts-server-generator": "./src/main.js"
+  },
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vishnu C Prasad",
+  "license": "ISC",
+  "dependencies": {
+    "git-clone": "^0.2.0",
+    "rimraf": "^5.0.5",
+    "yargs": "^17.7.2"
+  }
+}
