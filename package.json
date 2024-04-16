@@ -1,6 +1,6 @@
 {
   "name": "express-ts-server-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "bin": {
     "express-ts-server-generator": "./src/main.js"
@@ -11,7 +11,11 @@
   },
   "keywords": [],
   "author": "Vishnu C Prasad",
-  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/vishnucprasad/express_ts_server_generator"
+  },
+  "homepage": "https://github.com/vishnucprasad/express_ts_server_generator#readme",
+  "license": "MIT",
   "dependencies": {
     "git-clone": "^0.2.0",
     "rimraf": "^5.0.5",
