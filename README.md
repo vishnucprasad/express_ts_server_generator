@@ -1,19 +1,19 @@
-# create-express-ts-server
+# express-ts-server-generator
 
 Create Express TypeScript Server is a command-line tool that allows you to quickly generate a new Express.js server project with TypeScript support.
 
 ## Installation
 
-You can install the `create-express-ts-server` package globally using npm:
+You can install the `express-ts-server-generator` package globally using npm:
 
 ```bash
-npm install -g create-express-ts-server
+npm install -g express-ts-server-generator
 ```
 
 Alternatively, you can use `npx` to run the package without installing it globally:
 
 ```bash
-npx create-express-ts-server new <project-name>
+npx express-ts-server-generator new <project-name>
 ```
 
 Replace `<project-name>` with the desired name for your project.
@@ -23,7 +23,7 @@ Replace `<project-name>` with the desired name for your project.
 To create a new Express TypeScript server project, run the following command:
 
 ```bash
-create-express-ts-server new <project-name>
+express-ts-server-generator new <project-name>
 ```
 
 After running the above command, the tool will clone a base repository from GitHub and initialize it for clean use. It will set up an Express server with TypeScript configuration and install necessary dependencies.
